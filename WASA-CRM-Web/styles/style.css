@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#DDDDDD;
+	font:Georgia, "Times New Roman", Times, serif;
+}
+
+.navigation
+{
+	background:url(../image/nav.png) repeat-x;
+	margin:5px 0px;
+}
+
+.navigation a
+{
+		text-decoration:none;
+		color:#FFF;
+		padding:15px;
+		
+}
+
+.navigation a:hover
+{
+		background:url(../image/button.png) repeat-x;
+		border:thin #FFF double;
+		background-size:cover;
+}
+
+.navigation a:active
+{
+	background:url(../image/button.png) repeat-x;
+	border:thin #FFF double;
+	background-size:cover;
+}
+
+.selected
+{
+	text-decoration:none;
+	color:#FFF;
+	background:url(../image/button.png) repeat-x;
+	border:thin #FFF double;
+	background-size:cover;
+}
+
+#mainContent
+{
+	width:85%;
+	margin:0 auto;
+}
+
+li{
+	list-style-type:none;
+	display:inline;
+	color:#FFF;
+	font-weight:800;
+}
+
+ul{
+	padding:15px 10px;
+}
+
+.slider
+{
+	margin:5px 50px;
+	clear:both;
+}
+
+.graphs{
+	float:left;	
+	width:60%;
+	border:thin #999 groove;
+	padding:5px;
+	margin:5px 0px;
+	border-radius:5px;
+	
+}
+#footer
+{
+	width:auto;
+	clear:both;
+	background:url(../image/footer.png) repeat-x;
+	color:#CCC;
+	padding:10px 0px 10px 10px;
+	font-size:11px;
+	vertical-align:middle;
+	margin:50px 0px;
+}
+
+.recents{
+	float:right;
+	width:35%;
+	color:#FFFFFF;
+	border: #666 thin solid;
+	text-align:center;
+	margin:0px 0px 30px;
+}
+
+.updates{
+	font-size:12px;
+	color:#090;
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+.login
+{
+	width:500px;
+	margin:100px auto;
+}
+
+h1
+{
+	color:#333;
+	font-size:18px;
+	font-weight:800;
+	text-align:center;
+}
+
+td
+{
+	padding:0 15px;
+}
+
+.successMessage
+{
+	background-color:#DFF4FF;
+	border:#A7CEDF thin solid;
+	width: auto;
+	padding:2px 10px;
+	margin-bottom:10px;
+}
+
+.failureMessage
+{
+	background-color:#FFDDDD;
+	border:#FF0000 thin solid;
+	width: auto;
+	padding:2px 10px;
+	margin-bottom:10px;
+}
+
+em{
+	color:#036;
+	font-size:14px;
+	font-weight:bold;
+}
