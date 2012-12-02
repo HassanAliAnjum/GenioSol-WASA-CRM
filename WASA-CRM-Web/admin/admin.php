@@ -121,10 +121,6 @@ if(isset($_GET['isSuccess']))
 }
 ?>
 
-<?php
- require ('../actions/Util.php');
- $util = new Util ();
- ?>
 <script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
 <link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
 <div id="TabbedPanels1" class="TabbedPanels">
