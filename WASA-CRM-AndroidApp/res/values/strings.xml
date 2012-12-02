@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CRM-WASA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="app_name_detail">Citizen Reporting System</string>
+    <string name="dashb_reporissue">Report Issue</string>
+    <string name="dashb_assigntome">Assign to Me</string>
+    <string name="dashb_reportedbyme">Reported by Me</string>
+    <string name="dashb_resolved">Resolved</string>
+    <string name="dashb_settings">Settings</string>
+    <string name="dashb_feedback">Send Feedback</string>
+    <string name="dashb_viewissues">View Issues</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_report_issue">Report Issue</string>
+     <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact No</string>
+    <string name="priority">Priority</string>
+    <string name="town">Town</string>
+    <string name="description">Description</string>
+    <string name="cnic">CNIC</string>
+ 	<string name="resetbutton">Reset</string>
+ 	<string name="submitbutton">Submit</string>
+ 	<string name="category">Category</string>
+
+</resources>
